@@ -1,0 +1,51 @@
+footer {
+  border-top: 2px solid #BF9D47;
+  color: #BF9D47;
+}
+
+footer a, footer a:hover {
+  color: #fff;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+.mw-75 {
+  width: 75%;
+}
+
+@media screen and (max-width: 990px) {
+  .mw-75 {
+    width: 100%;
+  }
+}
+
+/* footer {
+  color: goldenrod	;
+  background-color: black;
+  border-top: 2px solid goldenrod;
+  padding-top: 20px;
+}
+
+footer a {
+  color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  footer .part1 {
+    margin: 0;
+    margin-left: -20%;
+    padding: 0;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  footer .part1 {
+    margin: 0;
+    margin-left: -3%;
+    padding: 0;
+    width: 90%;
+  }
+} */

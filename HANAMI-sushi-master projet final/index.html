@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Hanami Sushi - Accueil</title>
+  <link rel="stylesheet" type="text/css" href="./assets/import/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/import/bootstrap/lux/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark backnav">
+    <h1 id="fontsizetitle" class="navbar-brand">Hanami Sushi Bar</h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link tra fontsi" href="#home">Acceuil<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active tra">
+          <a class="nav-link fontsi" href="#card">Carte</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link tra fontsi" href="#ft">Contact<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="links nav-item dnone">
+          <a id="linktripadvisor" class="nav-link" href="https://www.tripadvisor.fr/Restaurant_Review-g187190-d6153511-Reviews-Hanami_Sushi_Bar-Le_Havre_Seine_Maritime_Haute_Normandie_Normandy.html" target="_blank"><img class="img" src="assets/img/tripadvisor-logotype.svg" /></a>
+        </li>
+        <li class="links nav-item dnone">
+          <a id="linkfacebook" class="nav-link" href="https://www.facebook.com/pages/Hanami-Sushi/1485077131732711" target="_blank"><img class="img" src="assets/img/facebook.svg" /></a>
+        </li>
+      </div>
+    </nav>
+
+    <div id="home" class="parallax"></div>
+    <!-- ****************************************************partie puce******************************************************************** -->
+    <div class="container-fluid Garant">
+
+      <div class="Garantie mb-5 mt-5">
+        <p id="text">
+          Garantie fraicheur
+        </p>
+      </div>
+
+      <div class="Garantie mb-5 mt-5">
+        <p id="text">
+          Préparation
+          à la commande
+        </p>
+      </div>
+
+      <div class="Garantie mb-5 mt-5">
+        <p id="text">
+          En livraison
+          et à Emporter
+        </p>
+      </div>
+
+      <div class="Garantie mb-5 mt-5">
+        <p id="text">
+          Artisan reconnu
+        </p>
+      </div>
+    </div>
+    <div class="parallax2"></div>
+    <div id="modalFormula" class="modal fade">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Commander</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <fieldset>
+                <legend>Commande</legend>
+                <div class="form-group">
+                  <label for="sel1">Salade de choux OU soupe mizo au choix:</label>
+                  <select class="form-control" id="sel1">
+                    <option selected>Salade de choux</option>
+                    <option>Soupe mizo</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="usr">Nom:</label>
+                  <input type="text" class="form-control" id="usr">
+                </div>
+                <div class="form-group">
+                  <label for="usr">Numéro de téléphone:</label>
+                  <input type="text" class="form-control" id="usr">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Heure à laquelle récupérer la commande:</label>
+                  <input type="number" class="form-control" id="pwd">
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-newsecondary" data-dismiss="modal">Annuler</button>
+            <button type="button" class="btn btn-newprimary">Ajouter au panier</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="card">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <div class="card border-newprimary mt-5 mb-5">
+              <div class="card-header">Liste des menus</div>
+              <div class="card-body">
+                <div class="card border-newprimary">
+                  <div id="formulas" class="card-header card-header-hoverable"><i id="formulasIcon" class="fas fa-caret-down"></i> Formules</div>
+                  <div id="content-formulas" class="card-body dnone">
+                    <div class="list-group">
+                      <p id="formula1" class="list-group-item list-group-item-action">Formule 1</p>
+                      <p id="formula2" class="list-group-item list-group-item-action">Formule 2</p>
+                      <p id="formula3" class="list-group-item list-group-item-action">Formule 3</p>
+                      <p id="formula4" class="list-group-item list-group-item-action">Formule 4</p>
+                      <p id="formula5" class="list-group-item list-group-item-action">Formule 5</p>
+                      <p id="formula6" class="list-group-item list-group-item-action">Formule 6</p>
+                    </div>
+                  </div>
+                  <div id="sm-formulas" class="card-header card-header-hoverable"><i id="smFormulasIcon" class="fas fa-caret-down"></i> Petites formules</div>
+                  <div id="content-sm-formulas" class="card-body dnone">
+                    <div class="list-group">
+                      <p id="smFormula1" class="list-group-item list-group-item-action">Petite formule 1</p>
+                      <p id="smFormula2" class="list-group-item list-group-item-action">Petite formule 2</p>
+                      <p id="smFormula3" class="list-group-item list-group-item-action">Petite formule 3</p>
+                      <p id="smFormula4" class="list-group-item list-group-item-action">Petite formule 4</p>
+                      <p id="smFormula5" class="list-group-item list-group-item-action">Petite formule 5</p>
+                      <p id="smFormula6" class="list-group-item list-group-item-action">Petite formule 6</p>
+                    </div>
+                  </div>
+                  <div id="eat" class="card-header card-header-hoverable"><i id="eatIcon" class="fas fa-caret-down"></i> Plats</div>
+                  <div id="content-eat" class="card-body dnone">
+                    <div class="list-group">
+                      <p id="eat1" class="list-group-item list-group-item-action">Plat 1</p>
+                      <p id="eat2" class="list-group-item list-group-item-action">Plat 2</p>
+                      <p id="eat3" class="list-group-item list-group-item-action">Plat 3</p>
+                      <p id="eat4" class="list-group-item list-group-item-action">Plat 4</p>
+                      <p id="eat5" class="list-group-item list-group-item-action">Plat 5</p>
+                      <p id="eat6" class="list-group-item list-group-item-action">Plat 6</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-8">
+            <div class="card border-newprimary mt-5 mb-5">
+              <div class="card-header">Informations</div>
+              <div class="card-body">
+                <div id="menu">
+                  <div class="card text-center">
+                    <div class="card-header">PROMOTION</div>
+                    <div class="card-body">
+                      <p>Sur une formule, une soupe mizo ET une salade de chou offerte!</p>
+                      <p>Sur une petite formule, une soupe mizo OU une salade de chou offerte!</p>
+                    </div>
+                  </div>
+                  <p>Merci de choisir une formule ou un plat pour pouvoir avoir les informations sur cette page.</p>
+                </div>
+                <div id="ct-formula1" class="dnone">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          <img class="card-img-top" src="./assets/img/menu-maki.png" alt="Card image cap" />
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Maki Mixte</h5>
+                            <p class="card-text">6 makis au saumon, 6 makis au concombre et 6 makis au thon</p>
+                            <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="ct-formula2" class="dnone">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          <img class="card-img-top" src="./assets/img/menu-maki.png" alt="Card image cap" />
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Maki Mixte</h5>
+                            <p class="card-text">6 makis au saumon, 6 makis au concombre et 6 makis au thon</p>
+                            <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="ct-formula3" class="dnone">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          <img class="card-img-top" src="./assets/img/menu-maki.png" alt="Card image cap" />
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Maki Mixte</h5>
+                            <p class="card-text">6 makis au saumon, 6 makis au concombre et 6 makis au thon</p>
+                            <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="ct-formula4" class="dnone">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          <img class="card-img-top" src="./assets/img/menu-maki.png" alt="Card image cap" />
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Maki Mixte</h5>
+                            <p class="card-text">6 makis au saumon, 6 makis au concombre et 6 makis au thon</p>
+                            <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="ct-formula5" class="dnone">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          <img class="card-img-top" src="./assets/img/menu-maki.png" alt="Card image cap" />
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Maki Mixte</h5>
+                            <p class="card-text">6 makis au saumon, 6 makis au concombre et 6 makis au thon</p>
+                            <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="ct-formula6" class="dnone">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          <img class="card-img-top" src="./assets/img/menu-maki.png" alt="Card image cap" />
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Maki Mixte</h5>
+                            <p class="card-text">6 makis au saumon, 6 makis au concombre et 6 makis au thon</p>
+                            <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="ct-smFormula1" class="dnone">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          <img class="card-img-top" src="./assets/img/menu-maki.png" alt="Card image cap" />
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Maki Mixte</h5>
+                            <p class="card-text">6 makis au saumon, 6 makis au concombre et 6 makis au thon</p>
+                            <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="ct-smFormula2" class="dnone">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          <img class="card-img-top" src="./assets/img/menu-maki.png" alt="Card image cap" />
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Maki Mixte</h5>
+                            <p class="card-text">6 makis au saumon, 6 makis au concombre et 6 makis au thon</p>
+                            <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="ct-smFormula3" class="dnone">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          <img class="card-img-top" src="./assets/img/menu-maki.png" alt="Card image cap" />
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Maki Mixte</h5>
+                            <p class="card-text">6 makis au saumon, 6 makis au concombre et 6 makis au thon</p>
+                            <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="ct-smFormula4" class="dnone">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          <img class="card-img-top" src="./assets/img/menu-maki.png" alt="Card image cap" />
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Maki Mixte</h5>
+                            <p class="card-text">6 makis au saumon, 6 makis au concombre et 6 makis au thon</p>
+                            <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="ct-smFormula5" class="dnone">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          <img class="card-img-top" src="./assets/img/menu-maki.png" alt="Card image cap" />
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Maki Mixte</h5>
+                            <p class="card-text">6 makis au saumon, 6 makis au concombre et 6 makis au thon</p>
+                            <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="ct-smFormula6" class="dnone">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          <img class="card-img-top" src="./assets/img/menu-maki.png" alt="Card image cap" />
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Maki Mixte</h5>
+                            <p class="card-text">6 makis au saumon, 6 makis au concombre et 6 makis au thon</p>
+                            <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="ct-eat1" class="dnone">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          <img class="card-img-top" src="./assets/img/menu-maki.png" alt="Card image cap" />
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Maki Mixte</h5>
+                            <p class="card-text">6 makis au saumon, 6 makis au concombre et 6 makis au thon</p>
+                            <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="ct-eat2" class="dnone">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          <img class="card-img-top" src="./assets/img/menu-maki.png" alt="Card image cap" />
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Maki Mixte</h5>
+                            <p class="card-text">6 makis au saumon, 6 makis au concombre et 6 makis au thon</p>
+                            <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="ct-eat3" class="dnone">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          <img class="card-img-top" src="./assets/img/menu-maki.png" alt="Card image cap" />
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Maki Mixte</h5>
+                            <p class="card-text">6 makis au saumon, 6 makis au concombre et 6 makis au thon</p>
+                            <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="ct-eat4" class="dnone">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          <img class="card-img-top" src="./assets/img/menu-maki.png" alt="Card image cap" />
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Maki Mixte</h5>
+                            <p class="card-text">6 makis au saumon, 6 makis au concombre et 6 makis au thon</p>
+                            <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="ct-eat5" class="dnone">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          <img class="card-img-top" src="./assets/img/menu-maki.png" alt="Card image cap" />
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Maki Mixte</h5>
+                            <p class="card-text">6 makis au saumon, 6 makis au concombre et 6 makis au thon</p>
+                            <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="ct-eat6" class="dnone">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                          <img class="card-img-top" src="./assets/img/menu-maki.png" alt="Card image cap" />
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Maki Mixte</h5>
+                            <p class="card-text">6 makis au saumon, 6 makis au concombre et 6 makis au thon</p>
+                            <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax3"></div>
+    <footer class="footer">
+      <div id="ft">
+        <div class="container bottom_border">
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <h5 class="headin5_amrc col_white_amrc pt2">Nous Trouver</h5>
+              <!-- <p class="mb10"></p> -->
+              <p><i class="fa fa-location-arrow"></i> 153 Quai George V<br/> 76600 Le Havre</p>
+              <p><i class="fa fa-phone"></i> 02 35 42 39 33</p>
+            </div>
+            <div class=" col-sm-12 col-md-4">
+              <ul class="footer_ul_amrc">
+                <div class="map-responsive">
+                  <li><a><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5183.334207825932!2d0.1151198!3d49.490795!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xedadb77dfb8c137e!2sHanami+Sushis!5e0!3m2!1sfr!2sfr!4v1538734575326" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></iframe></a></li>
+                </div>
+              </ul>
+            </div>
+            <div class=" col-sm-12 col-md-4">
+              <h5 class="headin5_amrc col_white_amrc pt2">Livraison</h5>
+              <p><a href="https://deliveroo.fr/fr/?utm_source=google&utm_medium=cpc&utm_term=deliveroo&utm_campaign=**%5EBrand%5ESearch%5EBrand%20Only%5EFrance%5ELe%20Havre%5E%5EExact%5E%5E%5E%5E%C2%A31338654885&utm_loc=9056168&utm_device=c&utm_adposition=1t1&utm_network=g&utm_targetid=kwd-52577441545&gclid=EAIaIQobChMIxrbArubu3QIVCr7tCh0IZAWBEAAYASAAEgIcsfD_BwE" class="footer_livraison">Deliveroo</a></p>
+              <p><a href="https://www.ubereats.com/fr-FR/" class="footer_livraison">Ubereats</a></p>
+              <p><a href="https://stuart.com/fr/" class="footer_livraison">Stuart</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-4"><a>lundi 11:00 - 20:30</a></div>
+          <div class="col-sm-12 col-md-4"><a>mardi 11:00 - 20:30</a></div>
+          <div class="col-sm-12 col-md-4"><a>mercredi 11:00 - 20:30</a></div>
+          <div class="col-sm-12 col-md-4"><a>jeudi 11:00 - 20:30</a></div>
+          <div class="col-sm-12 col-md-4"><a>vendredi 11:00 - 20:30</a></div>
+        </div>
+        <br/><p class="text-center">Designed by <a href="https://lamanu.fr/">LaManu students</a></p>
+        <ul class="social_footer_ul">
+          <li><a href="https://www.facebook.com/pages/Hanami-Sushi/1485077131732711"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://www.tripadvisor.fr/Restaurant_Review-g187190-d6153"><i class="fab fa-tripadvisor"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./assets/import/jquery/jquery-3.1.1.min.js"></script>
+    <script src="./assets/import/bootstrap/js/popper.min.js"></script>
+    <script src="./assets/import/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+  </html>

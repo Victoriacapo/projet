@@ -1,0 +1,103 @@
+#exampleModal .modal-dialog {
+    width: 100%;
+    min-width: 240px;
+}
+.modal-title {
+  color: #BF9D47;
+}
+
+.panier-vide-non-vide {
+  display: none;
+}
+
+/* modification des couleurs */
+.modal-content {
+    background-color: #616367;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.modal-content a {
+  color: white;
+}
+
+.modal-content .titre {
+  font-size: 1.3rem;
+  /* font-family: 'Montserrat', sans-serif; */
+  white-space: -3px;
+}
+
+.modal-content .price {
+  font-weight: bold;
+  color: #C02A33;
+}
+
+.modal-content .idProduit {
+  font-size: 1.3rem;
+}
+
+.modal-content .price {
+  font-size: 1.3rem;
+  text-shadow: 0 0 10px black;
+}
+
+.modal-content .supprimerProduit {
+  font-size: 1rem;
+  text-shadow: 0 0 10px black;
+}
+
+.modal-content .btn-primary {
+    color: #fff;
+    background-color: #BF9D47;
+    border-color: #C02A33;
+}
+
+.modal-content .idProduit {
+    font-size: 1.3rem;
+    width: 31px;
+    min-width: 0px;
+    margin-right: 1px;
+    padding-right: 1px;
+}
+
+.modal-content .col-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: none;
+    max-width: 8.333333%;
+}
+
+.buttonMoinQtPanier{
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+  margin-right: -6px;
+  display: inline;
+  width: 17px;
+  height: 28px;
+  padding: 0;
+  border-width: 0;
+}
+
+.buttonPlusQtPanier {
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+  margin-left: -5px;
+  display: inline;
+  width: 17px;
+  height: 28px;
+  padding: 0;
+  border-width: 0;
+}
+
+.modal-header {
+    border-bottom: 1px solid #BF9D47;
+}
+
+.modal-footer {
+    border-top: 1px solid #BF9D47;
+}
+
+@media (min-width: 576px) {
+  #exampleModal .modal-dialog {
+      max-width: 70%;
+  }
+}

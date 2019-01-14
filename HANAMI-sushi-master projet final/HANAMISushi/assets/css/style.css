@@ -1,0 +1,273 @@
+.border-newprimary {
+  border-color: #841e2b;
+}
+
+.btn-newprimary {
+  transition:0.3s;
+  background-color:#841e2b;
+  color:#fff;
+}
+
+.btn-newsecondary {
+  background-color:#f49e09;
+  color: #fff;
+}
+
+.btn-newprimary:hover {
+  background-color:#f49e09;
+  color:#fff;
+}
+
+.list-group > .list-group-item {
+  transition:0.3s;
+  background-color:#841e2b;
+  color:#fff;
+  cursor:pointer;
+}
+
+.list-group > .active {
+  background-color:#f49e09;
+}
+
+.align-center-content {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#formulas, #sm-formulas, #eat {
+  cursor:pointer;
+}
+
+.dnone {
+  display:none;
+}
+
+.card-header {
+  background-color:#841e2b;
+  color:#fff;
+}
+
+.card-header-hoverable {
+  transition:0.3s;
+}
+
+.card-header-hoverable:hover {
+  background-color:#f49e09;
+}
+
+.modal {
+  transition:0.5s;
+}
+
+.tra {
+  transition: 0.5s;
+}
+
+.tra:hover {
+  transition: 0.5s;
+  background-color: #f49e09;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.tra2 {
+  transition: 0.5s;
+}
+
+.tra2:hover {
+  transition: 0.5s;
+  background-color: #f49e09;
+  color: #fff;
+  border-radius: 10px;
+}
+
+#drop {
+  transition:0.3s;
+}
+
+#drop:hover, #drop:focus {
+  background-color:#f49e09;
+  color:#fff;
+}
+
+.backnav {
+  background-color: #841e2b;
+}
+
+.img {
+  width: 2rem;
+  height: auto;
+}
+
+.nav-item {
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.dnone {
+  display: none;
+}
+
+@media all and (min-width:1070px) {
+  .links {
+    display:block;
+  }
+}
+
+#linktripadvisor {
+  position: absolute;
+  right: 30px;
+  vertical-align: middle;
+}
+
+#linkfacebook {
+  position: absolute;
+  right: 100px;
+}
+/*footer*/
+.col_white_amrc { color:#FFF;}
+footer {
+	width:100%; background-color:#263238; min-height:15.625rem; padding:0.625rem 0 1.5625rem 0;
+}
+
+.pt2 {
+	padding-top:2.5rem ; margin-bottom:1.25rem;
+}
+
+.move {
+	padding-left: 6.5rem;
+}
+
+footer p {
+	font-size:0.8125rem; color:#CCC; padding-bottom:0; margin-bottom:0.5rem;
+}
+
+/* .mb10 {
+	padding-bottom:0.9375rem;
+} */
+
+iframe {
+	padding:1rem;
+}
+
+.footer_ul_amrc {
+	margin:0 6rem 0 0; list-style-type:none; font-size:0.875rem;
+}
+
+.footer_ul_amrc li a {
+	color:#CCC;
+}
+
+.footer_ul_amrc li a:hover {
+	color:#fff; text-decoration:none;
+}
+
+.footer_ul2_amrc {
+	padding:0 6rem 0 0; list-style-type:none; font-size:0.875rem;
+}
+
+.footer_ul2_amrc li a {
+	color:#CCC;
+}
+
+.footer_ul2_amrc li a:hover {
+	color:#fff; text-decoration:none;
+}
+
+.bottom_border {
+	border-bottom:0.0625rem solid #43545b; padding-bottom:1.25rem;
+}
+
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	display:table;
+	margin-top: 0.625rem;
+	margin-right: auto;
+	margin-bottom: 0.625rem;
+	margin-left: auto;
+}
+
+.foote_bottom_ul_amrc li {
+	display:inline;
+}
+
+.foote_bottom_ul_amrc li a {
+	color:#999; margin:0 0.75rem;
+}
+
+.social_footer_ul {
+	display:table; margin:0.9375rem auto 0 auto; list-style-type:none;
+}
+
+.social_footer_ul li {
+	padding-right:1.25rem; padding-top:0.625rem; float:left;
+}
+
+.social_footer_ul li a {
+	color:#CCC; border:0.0625rem solid #CCC; padding:0.5rem;border-radius:50%;
+}
+
+.social_footer_ul li i {
+	width:1.25rem; height:1.25rem; text-align:center;
+}
+#carousel1 p{
+  color: black;
+  font-family: 'Lobster Two', cursive, sans-serif;
+  font-size: 40px;
+  text-shadow: 3px 3px 6px white;
+}
+#carousel1 span{
+  font-weight: bolder;
+  color: green;
+}
+#carousel1 h5{
+  color: black;
+  font-family: 'Oswald', Arial, sans-serif;
+  font-size: 50px;
+  text-decoration: underline;
+}
+.SAVOIR h5{
+  color: black;
+}
+
+.Garantie {
+  transition:0.5s;
+	height: 220px;
+	width: 220px;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 220px;
+	margin-right: 25px;
+	background-color: rgba(255,255,255,0.85);
+  border: solid black;
+}
+.Garantie:hover{
+  background-color: #f49e09;
+}
+.Garant{
+	position: relative;
+	width: 100%;
+	background-color: #3e3e3e;
+	background-position-x: 65%;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	top: 50%;
+	height: auto;
+	text-align: center;
+  padding-top: 20px;
+}
+#text{
+  color: black;
+  display: inline-block;
+  font-family: 'Playfair Display SC', serif, Arial, sans-serif;
+	font-size: 24px;
+	background-attachment: scroll;
+	background-size: contain;
+	background-origin: padding-box;
+	vertical-align: middle;
+	line-height: 1.2em;
+  text-align: center;
+}

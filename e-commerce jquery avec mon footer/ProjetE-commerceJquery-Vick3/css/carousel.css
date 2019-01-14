@@ -1,0 +1,10 @@
+.carousel-indicators li{
+  border: 2px solid #ffd400;
+  border-radius: 10px;
+  width: 16px;
+  height: 17px;
+  /* box-shadow: 0 0 5px 1px yellow; */
+}
+.carousel-indicators .active {
+    background-color: #ffd400;
+}

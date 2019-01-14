@@ -1,0 +1,320 @@
+.border-newprimary {
+  border-color: #841e2b;
+}
+
+.btn-newprimary {
+  transition:0.3s;
+  background-color:#841e2b;
+  color:#fff;
+}
+
+.bg-dark {
+  background-color:#3e3e3e;
+  color:#fff;
+}
+
+.btn-newsecondary {
+  background-color:#f49e09;
+  color: #fff;
+}
+
+.btn-newprimary:hover {
+  background-color:#f49e09;
+  color:#fff;
+}
+
+.list-group > .list-group-item {
+  transition:0.3s;
+  background-color:#841e2b;
+  color:#fff;
+  cursor:pointer;
+}
+
+.list-group > .active {
+  background-color:#f49e09;
+}
+
+.align-center-content {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#formulas, #sm-formulas, #eat {
+  cursor:pointer;
+}
+
+.dnone {
+  display:none;
+}
+
+.card-header {
+  background-color:#841e2b;
+  color:#fff;
+}
+
+.card-header-hoverable {
+  transition:0.3s;
+}
+
+.card-header-hoverable:hover {
+  background-color:#f49e09;
+}
+
+.modal {
+  transition:0.5s;
+}
+
+.tra {
+  transition: 0.5s;
+}
+
+.tra:hover {
+  transition: 0.5s;
+  background-color: #f49e09;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.tra2 {
+  transition: 0.5s;
+}
+
+.tra2:hover {
+  transition: 0.5s;
+  background-color: #f49e09;
+  color: #fff;
+  border-radius: 10px;
+}
+
+#drop {
+  transition:0.3s;
+}
+
+#drop:hover, #drop:focus {
+  background-color:#f49e09;
+  color:#fff;
+}
+
+.backnav {
+  background-color: #841e2b;
+}
+
+.img {
+  width: 2rem;
+  height: auto;
+}
+
+.nav-item {
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.dnone {
+  display: none;
+}
+
+@media all and (min-width:1070px) {
+  .links {
+    display:block;
+  }
+}
+
+#linktripadvisor {
+  position: absolute;
+  right: 30px;
+  vertical-align: middle;
+}
+
+#linkfacebook {
+  position: absolute;
+  right: 100px;
+}
+/*footer*/
+.col_white_amrc {
+  color:#FFF;
+}
+
+footer {
+	width:100%; background-color:#263238; min-height:15.625rem; padding:0 0 1.5625rem 0; position: absolute;
+}
+
+.pt2 {
+	padding-top:2.5rem ; margin-bottom:1.25rem;
+}
+
+footer p {
+	font-size:0.8125rem; color:#CCC; padding-bottom:0; margin-bottom:0.5rem;
+}
+
+/* .mb10 {
+	padding-bottom:0.9375rem;
+} */
+
+iframe {
+	padding:1rem;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.footer_ul_amrc {
+	 list-style-type:none; font-size:0.875rem;
+}
+
+.footer_ul_amrc li a {
+	color:#CCC;
+}
+
+.footer_ul_amrc li a:hover {
+	color:#FFF; text-decoration:none;
+}
+
+.footer_livraison {
+  color: #FFF;
+}
+
+.bottom_border {
+	border-bottom:0.0625rem solid #43545b; padding-bottom:1.25rem;
+}
+
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	display:table;
+	margin-top: 0.625rem;
+	margin-right: auto;
+	margin-bottom: 0.625rem;
+	margin-left: auto;
+}
+
+.foote_bottom_ul_amrc li {
+	display:inline;
+}
+
+.foote_bottom_ul_amrc li a {
+	color:#999; margin:0 0.75rem;
+}
+
+.social_footer_ul {
+	display:table; margin:0.9375rem auto 0 auto; list-style-type:none;
+}
+
+.social_footer_ul li {
+	padding-right:1.25rem; padding-top:0.625rem; float:left;
+}
+
+.social_footer_ul li a {
+	color:#CCC; border:0.0625rem solid #CCC; padding:0.5rem;border-radius:50%;
+}
+
+.social_footer_ul li i {
+	width:1.25rem; height:1.25rem; text-align:center;
+}
+
+.carousel-text-background > h1 {
+  margin-top:5px;
+  color:#fff;
+}
+
+.carousel-text-background {
+  position:absolute;
+  top:50vh;
+  margin: 30px;
+  background-color: #000;
+  border: 1px solid white;
+  opacity: 0.4;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+.white-text {
+  color: #fff;
+}
+
+.parallax {
+  /* The image used */
+  background: url(../img/great-torii-of-miyajima-1425480_960_720.jpg) no-repeat top fixed;
+
+  /* Set a specific height */
+  min-height: 40rem;
+
+  /* Create the parallax scrolling effect */
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.parallax2 {
+/* The image used */
+background: url(../img/fisherman-2739115_960_720.jpg) no-repeat center fixed;
+
+/* Set a specific height */
+min-height: 19rem;
+
+/* Create the parallax scrolling effect */
+-webkit-background-size: cover;
+background-size: cover;
+}
+
+.parallax3 {
+  /* The image used */
+  background: url(../img/chef-1209161_960_720.jpg) no-repeat center fixed;
+
+  /* Set a specific height */
+  min-height: 19rem;
+
+  /* Create the parallax scrolling effect */
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+
+.Garantie {
+  transition:0.5s;
+	height: 11rem;
+	width: 11rem;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 11.25rem;
+	margin-right: 3rem;
+	background-color: #3e3e3e;
+  border: solid black 0.005rem;
+}
+.Garantie:hover{
+  background-color: #f49e09;
+}
+.Garant{
+	position: relative;
+	width: 100%;
+	background-color: #841e2b;
+	background-position-x: 50%;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	top: 50%;
+	height: auto;
+	text-align: center;
+}
+#text{
+  color: white;
+  display: inline-block;
+  font-family: 'Nunito Sans', serif, Arial, sans-serif;
+	font-size: 1.1rem;
+	background-attachment: scroll;
+	background-size: contain;
+	background-origin: padding-box;
+	vertical-align: middle;
+	line-height: 1.2em;
+  text-align: center;
+}
+
+#fontsizetitle {
+  font-size: 1.5rem;
+}
+
+.fontsi {
+  font-size: 0.8rem;
+}

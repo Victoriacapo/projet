@@ -1,0 +1,14 @@
+.navbar-left{
+  color: #FFF;
+  background-color: #ffffff17;
+  width: 100%;
+  padding: 7px;
+}
+
+.navbar-left.fixed-top {
+    top: 94px;
+}
+#inputSearchPriceMinProduct,
+#inputSearchPriceMaxProduct{
+  width: 50px;
+}

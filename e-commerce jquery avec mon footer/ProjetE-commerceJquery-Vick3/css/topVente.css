@@ -1,0 +1,43 @@
+#top-des-ventes{
+  padding-bottom: 40px;
+}
+#top-des-ventes .card {
+    background-color: #222;
+    border: 2px solid #ad0101;
+    color: #bbae03;
+    padding-bottom: 40px;
+    width: 100%;
+}
+#top-des-ventes .card p{
+  color: red;
+}
+.title-separator{
+  color: red;
+}
+.separator-red{
+  display: block;
+  height: 5px;
+  /* background-color: red; */
+  background: linear-gradient(to right, rgba(255,0,4,0) 0%,rgba(255,0,4,0) 1%,rgba(255,0,0,1) 50%,rgba(255,0,0,0.98) 51%,rgba(255,0,4,0) 100%);
+}
+
+.card-img-top {
+    width: 70%;
+    margin: auto;
+}
+.card-title {
+    min-height: 70px;
+    font-size: 1rem;
+}
+.promo img{
+   width: 85%;
+   height: 85%; 
+}
+
+/* @media screen and (max-width: 640px) {
+  #top-des-ventes .card {
+      padding-bottom: 40px;
+      width: 71%;
+      margin-top: 40px;
+  }
+} */

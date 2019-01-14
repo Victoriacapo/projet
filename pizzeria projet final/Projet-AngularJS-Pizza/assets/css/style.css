@@ -1,0 +1,456 @@
+body {
+  margin: 0;
+}
+
+/* Victoria's part navbar */
+.adressbar{
+  background-color: black;
+  margin-bottom: 0px;
+}
+marquee{
+  color: white;
+}
+.backnav {
+  background-color: #a3211f;
+}
+.backnav img{
+  height: 55px;
+  width: 55px;
+  border-radius: 10px;
+  margin-left: 0px;
+}
+.nav-item {
+  padding-left:60px;
+  padding-right:10px;
+  font-family: 'Lato', sans-serif;
+}
+.nav-link{
+  font-size: 15px;
+  font-weight: bold;
+}
+#linkfacebook {
+  position: absolute;
+  right: 20px;
+}
+#linkLinkedin {
+  position: absolute;
+  right: 50px;
+}
+
+marquee {
+  font-size: 0.8rem;
+  color: white;
+  background: black;
+  z-index: 2;
+  height: auto;
+  position: fixed;
+}
+
+.navbar {
+ background: linear-gradient( #a3211f, #BD0202);
+ position: fixed;
+ z-index: 1;
+ height: auto;
+ left: 0;
+ top: 0;
+ width: 100%;
+ /* transition top 0.3s; */
+ /* opacity: 1; */
+}
+
+.navbar.navbar-expand-lg.navbar-dark.backnav {
+  margin-top: 17px;
+  border-bottom: 2px solid black;
+  box-shadow: 4px 4px 10px black;
+}
+
+.navbar-brand #logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  margin: 0 140px 0 40px;
+  box-shadow: 3px 3px 3px black;
+}
+
+a.nav-link {
+  text-shadow: 1px 1px 1px black;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+a.nav-link:hover {
+  border-bottom: 3px solid green;
+  font-size: 1rem;
+}
+
+a.nav-link.icon {
+  border-bottom: none;
+  text-shadow: 1px 1px 1px black;
+}
+
+.navbar li {
+  margin: auto 30px;
+}
+
+.navbar .icon1 {
+  margin-left: 220px;
+}
+
+.dropdown-menu.show {
+  background: linear-gradient( #a3211f, #BD0202);
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+/* .show {
+  opacity:0;
+} */
+/*
+
+
+/* Victoria main-page */
+
+.main-image {
+  background: url('../images/menu.jpg') top;
+  max-width: 100%;
+  display: flex;
+  height: auto;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-bottom: 100px;
+  border-bottom: 4px solid #FF8D12;
+  background-size: cover;
+}
+
+.main-image .slogan h1 {
+  font-size: 2.4em;
+  color: #c7cfdb;
+  margin-top: 370px;
+  margin-left: 160px;
+  text-shadow: 3px 3px 3px black;
+}
+
+.main-image .table {
+  margin-top: 370px;
+  margin-left: 0px;
+}
+
+.main-image .table h2 {
+  margin-left: 100px;
+  font-size: 2em;
+  color: #cca043;
+  font-family: 'Mali', cursive;
+}
+/* End Victoria's part */
+
+/* Jeffren's part  */
+/* offres et cards */
+.minusItem{
+  color:red;
+}
+.minusItem:hover{
+  cursor:pointer;
+}
+.plusItem{
+  color:green;
+}
+.plusItem:hover{
+  cursor:pointer;
+}
+#categoryDisplay{
+
+}
+#priceByItem{
+  color : blue;
+}
+#deleteProduct{
+  color: red;
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  background-color: white;
+  height:20px;
+}
+#deleteProduct, #cartButton:hover{
+  cursor:pointer;
+}
+#cartButton{
+  color : green;
+  font-size: 3rem;
+  position: fixed;
+  padding: 0.8rem;
+  height: 5rem;
+  width: 5rem;
+  bottom: 11px;
+  right: 11px;
+  z-index: 300;
+  background-color: lightGrey;
+  border-radius: 3rem ;
+  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7),
+            -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+}
+#cartButton:hover{
+  color: blue;
+  padding: 0.8rem;
+  background-color: grey;
+}
+.circle{
+  position: absolute;
+  font-size: 1rem;
+  margin-left: 1.2rem;
+  margin-top: 1.05rem;
+  margin-bottom: 0.25rem;
+  width:25px;
+  font-weight: bold;
+  background-color:white;
+  height:23px;
+  vertical-align: middle;
+  text-align:center;
+  border-radius:3rem;
+  z-index: 2;
+}
+/* End Jeffen's part */
+
+/* Manuel's part  */
+/* Manuel's part  */
+.recipees {
+	background: url('../images/rome.jpg');
+  max-width: 100%;
+  height: auto;
+	display: flex;
+	background-repeat: no-repeat;
+  background-size: cover;
+	position: relative;
+  padding-top: 60px;
+	padding-bottom: 100px;
+  border-bottom: 4px solid #FF8D12;
+  border-top: 4px solid #FF8D12;
+}
+
+.cards {
+  margin-top: 180px;
+}
+
+.card h3 {
+	margin-top: 0px;
+	color: #fff;
+	text-shadow: 2px 2px 2px black;
+}
+
+strong {
+  font-size: 0.8em;
+  font-family: 'Mali', cursive;
+  text-shadow: 2px 2px 2px black;
+  color: #fff;
+	background:  linear-gradient( #a3211f, #BD0202);
+	padding: 10px 15px;
+	box-shadow: 3px 3px 3px black;
+	border-radius: 5px;
+}
+
+.card h4 {
+	color: black;
+}
+
+.card h4#exampleModalLabel{
+	color: #fff;
+}
+
+ button.close {
+	 color: #fff;
+ }
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  border: 1px solid black;
+	box-shadow: 3px 3px 3px black;
+}
+
+.card-text {
+	/* margin-bottom: 40px; */
+}
+
+.card-img-top{
+	height: 210px;
+	border-bottom: 1px solid black;
+}
+
+.card p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btn {
+	color: #fff;
+	background: linear-gradient( #a3211f, #BD0202);
+	box-shadow: 3px 3px 3px black;
+}
+
+.btn:hover {
+	color: #fff;
+	background: orangered;
+}
+
+.modal-body ul li {
+	list-style: none;
+}
+
+.modal-header {
+	background: linear-gradient( #a3211f, #BD0202);
+	border: 1px solid black;
+}
+
+.modal-footer {
+	background: linear-gradient( #a3211f, #BD0202);
+	border: 2px solid black;
+}
+
+/* End Manuel's part  */
+
+/* End Manuel's part  */
+
+/* Yas footer's part  */
+#footer {
+  border-top: 3px solid #a3211f;
+  border-bottom: 3px solid #a3211f;
+  margin : 0 auto;
+  float: none;
+}
+.cssform1{
+  background-color: #ffff;
+
+}
+#formContact{
+
+}
+#titleform{
+  text-align: center;
+  font-size: 2rem;
+  color : #a3211f;
+  font-family: 'Pacifico', cursive;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+#inputform{
+  width: 20rem;
+  height: 2rem;
+  border: 2px solid #a3211f;
+  max-width: 100%;
+}
+#labelform{
+  width: 4rem;
+  height : 2rem;
+  color : #a3211f;
+  font-family: 'Pacifico', cursive;
+}
+
+#textarea1{
+  width: 20rem;
+  height: 6rem;
+  border: 2px solid #a3211f;
+  max-width: 100%;
+}
+#footerbutton{
+  float: inline-end;
+  margin: 1rem;
+  color : #a3211f;
+  border: 2px solid #a3211f;
+  font-family: 'Pacifico', cursive;
+
+
+}
+#imgmap{
+  width: 20rem;
+  height: 15rem;
+  float: center;
+  margin-top: 2rem;
+  border: 2px solid #a3211f;
+  max-width: 100%;
+}
+#imgmap:hover{
+  width: 20rem;
+  height: 15rem;
+  float: center;
+  margin-top: 2rem;
+  border: 3px solid #a3211f;
+
+}
+
+.ft-copyright {
+		background-color: #000a1f;
+		border-top: 1px solid #121d6d;
+		display: flex;
+    font-family: 'Pacifico', cursive;;
+	}
+
+	.pb-2,
+	.py-2 {
+		padding-bottom: .5rem !important;
+		padding-top: .5rem !important;
+	}
+
+	.footer-top {
+		background-color: #ffff;
+		border-bottom: 1px solid rgba(25, 52, 132, .64);
+	}
+
+	.text-center {
+		text-align: center !important;
+	}
+
+	h4.ft-text-title {
+		color: #a3211f;
+		margin: 20px 0 10px;
+		text-align: center;
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+	}
+  h4.ft-text-title2 {
+    color: #a3211f;
+    margin: 20px 0 10px;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+  }
+
+	footer p {
+		color: #a3211f;
+		margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+	}
+
+    p.member{
+    color: #a3211f;
+    text-align: match-parent;
+    padding: 2rem;
+    line-height: 2.5rem;
+    font-family: 'Pacifico', cursive;
+    }
+
+    #justpushtobottom {
+        height: 82vh;
+    }
+    #logofooter{
+      width: 5rem;
+      height: 5rem;
+    }
+
+    #socialfooter{
+      margin: 1rem;
+    }
+    .logosocial{
+      padding : 1rem;
+    }
+   .footerbottom{
+     border-bottom: 3px solid #a3211f;
+   }
+
+
+
+/* Yas End footer's part  */

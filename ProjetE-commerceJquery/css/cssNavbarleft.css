@@ -1,0 +1,126 @@
+.navbar-left{
+  color: #FFF;
+  background-color: #ffffff17;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #BF9D47;
+  height: 30%;
+  margin-top: 20px;
+}
+
+.navbar-text{
+    font-size: 20px;
+}
+
+.navbar-left.fixed-top {
+    top: 94px;
+}
+
+#inputSearchPriceMinProduct, #inputSearchPriceMaxProduct {
+  width: 100%;
+}
+
+.form {
+  display: inline-block;
+  min-width: 10px;"
+}
+
+.toggle {
+  position: absolute;
+  display: none;
+}
+
+label {
+  display: block;
+  position: relative;
+  padding-left: 50px;
+  border: 1px solid #BF9D47;
+  color: #BF9D47;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color .2s, box-shadow .2s;
+}
+
+label::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 13px;
+  bottom: 13px;
+  left: 10px;
+  width: 13px;
+  border: 2px solid #BF9D47;
+  transition: background-color .2s;
+}
+
+label:hover, input:focus + label {
+  box-shadow: 0 0 20px rgba(0, 0, 0, .6);
+}
+
+input:checked + label {
+  background-color: #BF9D47;
+  color: #fff;
+}
+
+input:checked + label::before {
+  background-color: #fff;
+}
+
+.toggle2 {
+  border: 1px solid #BF9D47;
+  height: 34px;
+  width: 100%;
+  background-color: transparent;
+  color: #BF9D47;
+}
+
+.formButton {
+  border: 1px solid #BF9D47;
+  background-color: transparent;
+  color: #BF9D47;
+  height: 34px;
+  width: 35px;
+}
+
+.b-select-wrap::after {
+  color: #BF9D47;
+  content: "⌄";
+  position: absolute;
+  right: 0px;
+  top: -15px;
+  font-size: 34px;
+}
+
+.b-select {
+  -webkit-appearance: none; /* for webkit browsers */
+  -moz-appearance: none; /* for firefox */
+  appearance: none; /* for modern browsers */
+}
+
+.margin-left {
+  margin-left: 10px;
+}
+
+.btn-outline-danger:hover {
+  color: #fff;
+  background-color: #C02A33;
+}
+
+@media screen and (min-width: 768px) {
+  .test {
+    position: sticky;
+    top: 70px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .margin-left {
+    margin-left: 0px;
+    margin-right: 1px;
+  }
+}
